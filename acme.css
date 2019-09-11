@@ -1,0 +1,40 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color:#02459D;
+    height: 3vw;
+}
+
+.logo {
+    background-color: #61ADEF;
+    height: 2vw;
+    width: 5vw;
+}
+
+.tab {
+    background-color: #61ADEF;
+    height: 1.5vw;
+    width: 3vw;
+}
+
+.search {
+    background-color: #61ADEF;
+    height: 1.5vw;
+    width: 5vw;
+}
+
+.hero_image {
+    background-color: #61ADEF;
+    position: relative;
+    height: 40vw;
+}
+
+.hero_text {
+    background-color: #61ADEF;
+    position: absolute;
+    height: 10vw;
+    height: 3vw;
+}
