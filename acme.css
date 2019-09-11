@@ -3,38 +3,53 @@ body {
     margin: 0;
 }
 
-.header {
+.menu {
     background-color:#02459D;
-    height: 3vw;
+    height: 5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1em;
 }
 
 .logo {
-    background-color: #61ADEF;
-    height: 2vw;
-    width: 5vw;
+    background-color:#61ADEF;
+    height: 3vw;
+    width: 12vw;
+    margin-left: 7vw;
+    margin-top: 1vw;
+}
+
+.menu_right {
+    display: grid;
+    grid-template-columns: .5fr 1fr .75fr .75fr 2fr;
+    grid-column-gap: .3em;
+    margin-right: 30px;
 }
 
 .tab {
-    background-color: #61ADEF;
+    background-color:#61ADEF;
     height: 1.5vw;
-    width: 3vw;
+    margin-top: 1.5vw;
 }
 
 .search {
     background-color: #61ADEF;
     height: 1.5vw;
-    width: 5vw;
+    margin-top: 1.5vw;
+    
 }
 
 .hero_image {
-    background-color: #61ADEF;
+    background-color: pink;
     position: relative;
     height: 40vw;
 }
 
 .hero_text {
-    background-color: #61ADEF;
+    background-color: red;
     position: absolute;
     height: 10vw;
     height: 3vw;
+    right: 20px;
+    bottom: 50px;
 }
