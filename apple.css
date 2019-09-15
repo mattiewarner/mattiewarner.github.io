@@ -1,0 +1,44 @@
+.header {
+    height: 2vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 2em;
+    margin: auto;
+    width: 60vw;
+}
+
+.button {
+    background-color: black;
+}
+
+.image1 {
+    background-color: blue;
+    height: 30vw;
+    position: relative;
+    margin-top: 20px;
+}
+
+.info1 {
+    background-color: #61ADEF;
+    position: absolute;
+    height: 8vw;
+    width: 40vw;
+    right: 550px;
+    top: 100px;
+}
+
+.image2 {
+    background-color: blue;
+    height: 30vw;
+    position: relative;
+    margin-top: 20px;
+}
+
+.info2 {
+    background-color: #61ADEF;
+    position: absolute;
+    height: 8vw;
+    width: 40vw;
+    right: 550px;
+    top: 500px;
+}
