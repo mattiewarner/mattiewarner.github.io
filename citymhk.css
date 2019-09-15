@@ -1,0 +1,134 @@
+.header {
+    background-color: #C3A9A9;
+    height: 6vw;
+    display: grid;
+    grid-template-columns: .5fr 1.5fr;
+    grid-column-gap: 30em;
+}
+
+.logo {
+    background-color: #9E7072;
+    height: 4vw;
+    margin-top: 1vw;
+    margin-left: 10px;
+}
+
+.search {
+    background-color: #9E7072;
+    height: 4vw;
+    width: 40vw;
+    margin-top: 1vw;
+    margin-left: 100px;
+}
+
+.menu {
+    height: 3vw;
+    width: 60vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 1em;
+    margin-top: 15px;
+}
+
+.tab {
+    background-color: #9E7072;
+}
+
+.background_image {
+    background-color: #C3A9A9;
+    height: 40vw;
+    margin-top: 15px;
+    position: relative;
+}
+
+.hero_image {
+    background-color: #9E7072;
+    position: absolute;
+    height: 33vw;
+    width: 65vw;
+    right: 300px;
+    bottom: 120px;
+}
+
+.main {
+
+}
+
+.menu_2 {
+    background-color: #C3A9A9;
+    margin-top: 15px;
+    height: 12vw;
+    width: 65vw;
+    margin: auto;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+}
+
+.activities {
+    background-color: #9E7072;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.menu_3 {
+    background-color: #C3A9A9;
+    margin-top: 15px;
+    height: 4vw;
+    width: 60vw;
+    margin: auto;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 1em;
+}
+
+.meetings {
+    background-color: #9E7072;
+    width: 19.5vw;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1em;
+    width: 65vw;
+    margin: auto;
+    margin-top: 15px;
+    height: 25vw;
+}
+
+.top_main {
+    background-color: #9E7072;
+    height: 25vw;
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: 1.3fr .7fr;
+    grid-column-gap: 1em;
+    width: 65vw;
+    margin: auto;
+    margin-top: 15px;
+    height: 25vw;
+}
+
+.bottom_main {
+    background-color: #9E7072;
+    height: 25vw;
+}
+
+.links {
+    background-color: #C3A9A9;
+    height: 10vw;
+    margin-top: 15px;
+}
+
+.contact {
+    background-color: #9E7072;
+    height: 3vw;
+}
