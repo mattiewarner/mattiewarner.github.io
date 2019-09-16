@@ -2,5 +2,54 @@
     position: fixed;
     background-color: black;
     width: 15px;
-    height: 100vw;;
+    height: 100vw;
+}
+
+.hero_image {
+    width: 100vw;
+    height: 20vw;
+    background-color: #B0B0B0;
+}
+
+.the_shed {
+    display: grid;
+    grid-template-columns: 1.2fr 1.3fr .5fr;
+    height: 30vw;
+}
+
+.image_1 {
+    background-color: #575757;
+    height: 25px;
+}
+
+.image_2 {
+    background-color: #B0B0B0;
+    height: 45px;
+}
+
+.image_3 {
+    background-color: #B0B0B0;
+    height: 25px;
+}
+
+.image_4 {
+    background-color: #B0B0B0;
+    height: 20px;
+}
+
+.zaryadyk_park {
+    display: grid;
+    grid-template-columns: .5fr 1.5fr;
+    height: 30vw;
+}
+
+.image_5 {
+    background-color: #B0B0B0;
+
+    height: 25vw;
+}
+
+.image_6 {
+    background-color: #B0B0B0;
+    height: 30vw;
 }
