@@ -1,0 +1,485 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+p {
+    color: #707070;
+    font-size: 1.5em;
+    font-family: 'Fira Sans', sans-serif;
+    margin-left: 60px;
+}
+
+.poem {
+    width: 200vw;
+}
+
+.title_box {
+    background-color: #019FFD;
+    height: 20vw;
+    width: 30vw;
+    margin-left: 10vw;
+    text-align: center;
+}
+
+
+.it {
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    display: block;
+    line-height: 1em;
+}
+
+h1 {
+    font-size: 3.5em;
+    color: white;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 2em;
+    color: white;
+    line-height: 1em;
+    margin: 0;
+}
+
+.first_line_1 {
+    font-weight: bolder;
+    margin-left: 0;
+}
+
+.stanza_1 {
+    font-weight: lighter;
+    line-height: .8em;
+    float: left;
+    margin-left: 50vw;
+    margin-right: 10vw;
+}
+
+.callout_1 {
+    font-weight: bolder;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.first_line_2 {
+    font-weight: bolder;
+    margin-left: 0;
+}
+
+.stanza_2 {
+    font-weight: lighter;
+    line-height: .8em;
+    float: left;
+    margin-right: 10vw;
+}
+
+.callout_2 {
+    font-weight: bolder;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 10px;
+    width: 10vw;
+}
+
+.first_line_3 {
+    font-weight: bolder;
+    margin-left: 0;
+}
+
+.stanza_3 {
+    font-weight: lighter;
+    line-height: .8em;
+    float: left;
+}
+
+.callout_3 {
+    font-weight: bolder;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 10px;
+    width: 10vw;
+}
+
+.date {
+    font-weight: lighter;
+}
+
+/* ------- SMART PHONE ----------*/
+
+@media only screen and (max-width: 800px) {
+    body {
+        background-color: white;
+    }
+
+    p {
+        color: #707070;
+        font-family: 'Fira Sans', sans-serif;
+        margin-left: 0;
+    }
+
+    .meta {
+        position: absolute;
+    }
+
+    .title_box {
+        background-color: white;
+        height: 12vw;
+        width: 100vw;
+        margin-left: 10vw;
+        margin-top: 10vw;
+        text-align: left;
+    }
+
+    .it {
+        font-size: 1.2em;
+        color: #2A2A72;
+        display: inline;
+        font-weight: bold;
+        font-family: 'Fira Sans', sans-serif;
+        margin: 0;
+        line-height: 1em;
+    }
+
+    h1 {
+        font-size: 2em;
+        color: #2A2A72;
+        font-weight: bold;
+        font-family: 'Fira Sans', sans-serif;
+        margin: 0;
+        line-height: 1em;
+    }
+
+    h2 {
+        font-size: 2em;
+        color: #2A2A72;
+        font-weight: lighter;
+        font-family: 'Fira Sans', sans-serif;
+        margin: 0;
+        line-height: 0em;
+    }
+
+    .poem {
+        width: 350vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 1em;
+    }
+
+    .one {
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        margin-top: 30vw;
+    }
+
+    .box_1 {
+        background-color: #2A2A72;
+        width: 13vw;
+        height: 270px;
+        margin-top: 25px;
+    }
+
+    .first_line_1 {
+        font-weight: lighter;
+        margin-left: 0;
+    }
+    
+    .stanza_1 {
+        font-weight: lighter;
+        line-height: .8em;
+        float: left;
+        margin-left: 0;
+    }
+    
+    .callout_1 {
+        font-weight: lighter;
+        margin-top: 0;
+        margin-left: 10px;;
+    }
+
+    .line_1 {
+        display: none;
+    }
+
+    .two {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-row-gap: 1em;
+    }
+
+    .box_2 {
+        background-color: #2A2A72;
+        height: 50vw;
+        width: 80vw;
+        margin-top: 0;
+        margin: auto;
+    }
+    
+    .first_line_2 {
+        font-weight: lighter;
+        margin-left: 0;
+    }
+    
+    .stanza_2 {
+        font-weight: lighter;
+        line-height: .8em;
+        float: left;
+        margin-right: 10vw;
+    }
+    
+    .callout_2 {
+        font-weight: lighter;
+        margin-top: 0;
+        margin-left: 8px;
+        width: 20vw;
+    }
+
+    .line_2 {
+        display: none;
+    }
+
+    .three {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-row-gap: 1em;
+    }
+    
+    .box_3 {
+        background-color: #2A2A72;
+        height: 50vw;
+        margin-top: 0;
+        width: 90vw;
+    }
+
+    .first_line_3 {
+        font-weight: lighter;
+        margin-left: 0;
+    }
+    
+    .stanza_3 {
+        font-weight: lighter;
+        line-height: .8em;
+        float: left;
+        margin-right: 10vw;
+    }
+
+    .callout_3 {
+        font-weight: lighter;
+        margin-top: 0;
+        margin-left: 8px;
+        width: 20vw;
+    }
+
+    .line_3 {
+        display: none;
+    }
+
+    .date {
+        position: absolute;
+        margin-top: 130px;
+        margin-left: 60px;
+        font-size: .7em;
+    }
+}
+
+
+/* ------- TABLET ----------*/
+
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+
+    body {
+    }
+
+    p {
+        color: #707070;
+        font-family: 'Fira Sans', sans-serif;
+        margin-left: 0;
+    }
+
+    .meta {
+        position: none;
+    }
+
+    .title_box {
+        background-color: #FFA400;
+        height: 20vw;
+        width: 40vw;
+        margin-top: 3vw;
+        text-align: left;
+        margin-left: 0;
+    }
+
+    .it {
+        font-size: 1.2em;
+        color: #white;
+        font-weight: bold;
+        font-family: 'Fira Sans', sans-serif;
+        margin-left: 40px;
+        line-height: 1.5em;
+        
+    }
+
+    .couldnt {
+        font-size: 1.2em;
+        color: #white;
+        font-weight: bold;
+        font-family: 'Fira Sans', sans-serif;
+        margin-left: 40px;
+        line-height: 1.5em;
+    }
+
+    .be {
+        font-size: 1.2em;
+        color: #white;
+        font-weight: bold;
+        font-family: 'Fira Sans', sans-serif;
+        line-height: 1.5em;
+    }
+
+    .done {
+        font-size: 1.2em;
+        color: #white;
+        font-weight: bold;
+        font-family: 'Fira Sans', sans-serif;
+        margin-top: 50px;
+        line-height: 1.5em;
+        margin-left: 40px;
+    }
+
+    h1 {
+        font-size: 2em;
+        color: #white;
+        font-weight: bold;
+        font-family: 'Fira Sans', sans-serif;
+        margin: 0;
+        line-height: 1em;
+    }
+
+    h2 {
+        font-size: 2em;
+        color: #707070;
+        font-weight: lighter;
+        font-family: 'Fira Sans', sans-serif;
+        line-height: 0em;
+        position: absolute;
+        margin-left: 42vw;
+    }
+
+    .poem {
+
+    }
+
+    .box_1 {
+        background-color: none;
+    }
+
+    .one {
+        display: block;
+    }
+
+    .first_line_1 {
+        font-weight: lighter;
+    }
+    
+    .stanza_1 {
+        font-weight: lighter;
+        line-height: .8em;
+        text-align: center;
+        margin: auto;
+        float: none;
+        margin-bottom: 10vw;
+    }
+    
+    .callout_1 {
+        font-weight: lighter;
+        margin-top: 0;
+        width: 20vw;
+        margin-left: 10px;
+    }
+
+    .line_1 {
+        background-color: #FFA400;
+        border-width: 5px solid #FFA400;
+        width: 20px;
+    }
+
+    .two {
+        display: block;
+    }
+
+    .box_2 {
+        background-color: none;
+    }
+    
+    .first_line_2 {
+        font-weight: lighter;
+        margin-left: 0;
+    }
+    
+    .stanza_2 {
+        font-weight: lighter;
+        line-height: .8em;
+        text-align: center;
+        margin: auto;
+        float: none;
+        margin-bottom: 10vw;
+    }
+    
+    .callout_2 {
+        font-weight: lighter;
+        margin-top: 0;
+        width: 20vw;
+    }
+
+    .line_2 {
+        background-color: #FFA400;
+        border-width: 5px solid #FFA400;
+        width: 20px;
+    }
+
+    .three {
+        display: block;
+    }
+    
+    .box_3 {
+        background-color: none;
+    }
+
+    .first_line_3 {
+        font-weight: lighter;
+        margin-left: 0;
+    }
+    
+    .stanza_3 {
+        font-weight: lighter;
+        line-height: .8em;
+        text-align: center;
+        margin: auto;
+        float: none;
+    }
+
+    .callout_3 {
+        font-weight: lighter;
+        margin-top: 0;
+        margin-left: 8px;
+        width: 20vw;
+    }
+
+    .line_3 {
+        background-color: #FFA400;
+        border-width: 5px solid #FFA400;
+        width: 20px;
+    }
+
+    .date {
+        margin: 0;
+    }
+}
+
