@@ -1,4 +1,26 @@
+font-family: 'DM Serif Display', serif;
+font-family: 'Fira Sans', sans-serif;
+
 body {
     background-color: aqua;
+    width: 5vw;
 }
-]
+
+.window {
+    width: 300vw;
+    height: 100vw;
+    background-color: grey;
+}
+
+.h1 {
+    font-family: 'DM Serif Display', serif;
+    margin-left: 10vw;
+}
+
+.works {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 1em;
+    background-color: aquamarine;
+    margin-left: 10vw;
+}
