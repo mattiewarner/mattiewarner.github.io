@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: aqua;
     font-family: 'Fira Sans', sans-serif;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -14,8 +13,7 @@ a {
 }
 
 .window {
-    width: 200vw;
-    background-color: grey;
+    width: 3000px;
     margin-top: 0px;
     margin-left: 0px;
 }
@@ -31,20 +29,27 @@ h1 {
     font-family: 'DM Serif Display', serif;
     font-size: 25px;
     padding: 0;
-    margin-bottom: 10px;
     position: fixed;
     top: 0px;
     left: 4vw;
     display: block;
 }
 
+.line {
+    background-color: #F9DB30;
+    height: 7px;
+    width: 140px;
+    padding: 0 0 0 0;
+    margin-top: 10vh;
+    margin-bottom: 0;
+}
+
 .works {
     display: grid;
-    grid-template-columns: 1fr .75fr 1.5fr .75fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr .75fr 1.5fr 1fr 1fr .75fr 1fr 1fr;
     grid-column-gap: 1em;
-    background-color: aquamarine;
     margin-left: 5vw;
-    margin-top: 5vw;
+    margin-top: 1vh;
     height: 87vh;
 }
 
@@ -106,46 +111,49 @@ div {
 
 .photo_1 {
     background-image: url(img/jazzArtboard1.png);
-    height: 25vw;
+    height: 50vh;
 }
 
 .photo_2 {
     background-image: url(img/jazzArtboard1.png);
+    height: 58vh;
 }
 
 .photo_3_1 {
     background-image: url(img/honigSquare_2.jpg);
-    height: 15vw;
+    height: 25vh;
 }
 
 .photo_3_2 {
     background-image: url(img/challengingArtboard2.png);
-    height: 15vw;
+    height: 25vh;
 }
 
 .photo_4 {
     background-image: url(img/brittsArtboard2.png);
-    height: 35vw;
+    height: 70vh;
 }
 
 .photo_5 {
     background-image: url(img/jazzArtboard1.png);
-    height: 27vw;
+    height: 51vh;
 }
 
 .photo_6 {
     background-image: url(img/openstreets_join_us01.png);
     background-position: center left;
+    height: 58vh;
 }
 
 .photo_7 {
     background-image: url(img/jazzArtboard1.png);
+    height: 70vh;
 }
 
 .photo_8 {
     background-image: url(img/FAFKCiphone_mock.png);
     background-position: center left;
-    height: 25vw;
+    height: 51vh;
 }
 
 .animatedFromCenter,
@@ -194,3 +202,12 @@ div {
   transform-origin: 100% 50%;
 }
 
+/* ----------- TABLETS ----------- */
+@media only screen and (min-width: 800px) and (max-width: 1280px) (max-height: 1680px) {
+
+}
+
+/* ----------- SMART PHONES ----------- */
+@media only screen and (max-width: 800px) (max-height: 800px) {
+
+}
