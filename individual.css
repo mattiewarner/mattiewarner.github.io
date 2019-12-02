@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: aqua;
     font-family: 'Fira Sans', sans-serif;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -15,12 +14,9 @@ a {
 
 .window {
     display: grid;
-    width: 170vw;
-    height: 100vh;
-    background-color: grey;
-    margin-top: 7vw;
+    width: 3000px;
     margin-left: 0px;
-    grid-template-columns: .9fr .9fr 1.2fr;
+    grid-template-columns: 1.1fr .5fr 1.8fr;
     grid-column-gap: 1em;
 }
 
@@ -29,13 +25,14 @@ a {
     font-size: 50px;
     padding: 0;
     position: fixed;
-    top: 2vw;
-    left: 4vw;
+    top: 20px;
+    left: 50px;
     display: block;
 }
 
 .column_1 {
-
+    display: grid;
+    grid-template-rows: .3fr 1.8fr;
 }
 
 .line {
@@ -43,21 +40,43 @@ a {
     height: 7px;
     width: 100px;
     padding: 0 0 0 0;
-    margin-bottom: 20px;
-    margin-left: 5vw;
+    margin-left: 70px;
+    margin-top: 90px;
  }
 
+.row_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+}
+
+.project_details {
+    margin-left: 330px;
+}
+
 .description {
-    height: 250px;
+    height: 200px;
     width: 300px;
-    margin-left: 6vw;
-    background-color: pink;
+    margin-left: 100px;
+}
+
+.row_2 {
+    display: grid;
+    grid-template-columns: .5fr 1.5fr;
 }
 
 .menu {
-    margin-bottom: 30px;
-    margin-left: 20px;
+    margin-top: 400px;
     text-align: center;
+}
+
+b {
+    border-bottom: #F9DB30 solid 5px;
+    line-height: 2em;
+}
+
+p {
+    margin-top: 0;
 }
 
 .menu_option {
@@ -111,6 +130,41 @@ a {
 .animatedFromRight:hover:after {
   transform: scaleX(1);
   transform-origin: 100
+}
+
+.photo_1 {
+    background-image: url(img/jazzArtboard4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.column_2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 1em;
+}
+
+.photo_2 {
+    background-image: url(img/jazzArtboard2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.photo_3 {
+    background-image: url(img/jazzArtboard1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.column_3 {
+    background-image: url(img/jazzArtboard3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
 
 /* ----------- TABLETS ----------- */
 @media only screen and (min-width: 800px) and (max-width: 1280px) (max-height: 2500px) {
