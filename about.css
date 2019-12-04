@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: block;
+}
+
+.name {
+    font-family: 'DM Serif Display', serif;
+    font-size: 50px;
+    padding: 0;
+    position: fixed;
+    top: 20px;
+    left: 50px;
+    display: block;
+}
+
+.line {
+    background-color: #F9DB30;
+    height: 7px;
+    width: 100px;
+    padding: 0 0 0 0;
+    margin-left: 70px;
+    margin-top: 90px;
+}
+
+.window {
+    display: grid;
+    grid-template-columns: 1.1fr .7fr 1.2fr;
+    grid-column-gap: 1em;
+    background-color: blue;
+}
+
+.description {
+    width: 20vw;
+}

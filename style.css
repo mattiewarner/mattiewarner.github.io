@@ -36,7 +36,7 @@ a {
     padding: 0 0 0 0;
     margin-left: 70px;
     margin-top: 90px;
- }
+}
 
 .works {
     display: grid;
@@ -69,6 +69,7 @@ a {
 
 .upper {
     padding-top: 10px;
+    height: 100%;
 }
 
 .two_up {
@@ -76,19 +77,22 @@ a {
     grid-template-rows: 1fr 1fr;
     grid-row-gap: 2fr;
     margin-top: 10px;
+    height: 100%;
 }
 
 .mid {
     margin-top: 5vw;
+    height: 100%;
 }
 
 .lower {
     margin-top: 10vw;
+    height: 100%;
 }
 
 div {
     margin: 20px;
-  }
+}
 
 .project_2 {
     height: 100%;
@@ -105,49 +109,49 @@ div {
 
 .photo_1 {
     background-image: url(img/jazzArtboard1.png);
-    height: 50vh;
+    height: 58%;
 }
 
 .photo_2 {
     background-image: url(img/tea_Artboard2copy.png);
-    height: 58vh;
+    height: 62%;
 }
 
 .photo_3_1 {
     background-image: url(img/honigSquare_2.jpg);
-    height: 25vh;
+    height: 80%;
 }
 
 .photo_3_2 {
     background-image: url(img/challengingArtboard2.png);
-    height: 25vh;
+    height: 80%;
 }
 
 .photo_4 {
     background-image: url(img/brittsArtboard2.png);
-    height: 70vh;
+    height: 90%;
 }
 
 .photo_5 {
     background-image: url(img/ksu_senior_mock_up.jpg);
-    height: 51vh;
+    height: 60%;
 }
 
 .photo_6 {
     background-image: url(img/openstreets_join_us01.png);
     background-position: center left;
-    height: 58vh;
+    height: 60%;
 }
 
 .photo_7 {
     background-image: url(img/jazzArtboard1.png);
-    height: 70vh;
+    height: 90%;
 }
 
 .photo_8 {
     background-image: url(img/FAFKCiphone_mock.png);
     background-position: center left;
-    height: 51vh;
+    height: 60%;
 }
 
 .animatedFromCenter,
