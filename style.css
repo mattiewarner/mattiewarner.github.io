@@ -98,6 +98,14 @@ a {
     height: 100%;
 }
 
+.upper .title {
+    height: 10%;
+}
+
+.upper .image {
+    height: 90%;
+}
+
 div {
     margin: 20px;
 }
