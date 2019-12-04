@@ -81,12 +81,20 @@ a {
 }
 
 .mid {
-    margin-top: 5vw;
+    margin-top: 5vh;
     height: 100%;
 }
 
+.mid .title {
+    height: 20%;
+}
+
+.mid .photo {
+    height: 80%;
+}
+
 .lower {
-    margin-top: 10vw;
+    margin-top: 10vh;
     height: 100%;
 }
 
