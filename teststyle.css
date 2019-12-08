@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.window {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1em;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 1em;
+    background-color: pink;
+}
