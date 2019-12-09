@@ -14,6 +14,14 @@ img {
     max-width: 100%;
 }
 
+.window {
+    display: grid;
+    margin-left: 0px;
+    grid-template-columns: .8fr .8fr 1.8fr;
+    grid-column-gap: 1em;
+    margin-top: 90px;
+}
+
 .white {
     background-color: white;
     height: 100px;
@@ -45,25 +53,25 @@ img {
     padding: 0 0 0 0;
 }
 
-.window {
+.column_1 {
     display: grid;
-    grid-template-columns: 1.1fr .7fr 1.2fr;
-    grid-column-gap: 1em;
-    margin-top: 90px;
-}
-
-.about {
-    margin-top: 50px;
-    display: grid;
-    grid-template-rows: 1.8fr .2fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-row-gap: 1em;
-    height: 87vh;
 }
 
-.description {
+.row_1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 1em;
+    margin-top: 20px;
     height: 200px;
     width: 300px;
     margin-left: 100px;
+}
+}
+
+.project_details {
+    align-content: right;
 }
 
 .menu {
@@ -75,6 +83,15 @@ img {
     margin-left: 5vw;
     text-align: center;
     font-weight: 200;
+}
+
+b {
+    border-bottom: #F9DB30 solid 5px;
+    line-height: 2em;
+}
+
+p {
+    margin-top: 0;
 }
 
 .animatedFromCenter,
@@ -129,62 +146,21 @@ img {
     background-size: contain;
 }
 
-.timeline_title {
-    font-family: 'DM Serif Display', serif;
-    font-size: 30px;
-    padding: 0;
-    margin: 0;
-    margin-top: 10px;
+.column_2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 1em;
 }
 
-.timeline_line {
-    background-color: #F9DB30;
-    height: 7px;
-    width: 100px;
-    padding: 0 0 0 0;
-    margin-top: 20px;
+.hero {
+    background-image: url(img/jazzArtboard3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+    margin-top: 1em;
+    margin-left: 416px;
 }
-
-.reveal_trigger {
-    margin: 0;
-    margin-left: 20px;
-    cursor: pointer;
-  }
-  
-  .reveal_trigger:hover {
-    color: green;
-  }
-  
-  .reveal_trigger:before {
-    border-style: solid;
-    border-width: 5px 5px 0 0;
-    content: "";
-    display: inline-block;
-    height: 0.45em;
-    left: -7px;
-    position: relative;
-    top: 2.5px;
-    transform: rotate(45deg);
-    vertical-align: top;
-    width: 0.45em;
-  }
-  
-  .active .reveal_trigger:before {
-    transform: rotate(135deg);
-    top: 0;
-  }
-  
-  .reveal_details {
-    display: none;
-  
-    margin: 0;
-    margin-left: 40px;
-    margin-top: 10px;
-  }
-  
-  .active .reveal_details {
-    display: block;
-  }  
 
 /* ----------- TABLETS ----------- */
 @media only screen and (min-width: 800px) and (max-width: 1280px) (max-height: 2500px) {
