@@ -17,7 +17,7 @@ img {
 .window {
     display: grid;
     margin-left: 0px;
-    grid-template-columns: .8fr .8fr 1.8fr;
+    grid-template-columns: .8fr 1fr 1.6fr;
     grid-column-gap: 1em;
     margin-top: 90px;
 }
