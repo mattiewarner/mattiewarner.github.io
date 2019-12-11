@@ -23,6 +23,7 @@ img {
     left: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    z-index: 100;
 }
 
 .title {
@@ -37,7 +38,7 @@ img {
     margin-left: 20px;
 }
 
-.line {
+.about_line {
     background-color: #F9DB30;
     height: 7px;
     position: fixed;
@@ -45,7 +46,7 @@ img {
     padding: 0 0 0 0;
 }
 
-.window {
+.about_window {
     display: grid;
     grid-template-columns: 1.1fr .7fr 1.2fr;
     grid-column-gap: 1em;
@@ -60,7 +61,7 @@ img {
     height: 87vh;
 }
 
-.description {
+.about_description {
     height: 200px;
     width: 300px;
     margin-left: 100px;
@@ -123,10 +124,11 @@ img {
   transform-origin: 100
 }
 
-.photo {
+.about_photo {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    margin-top: 50px;
 }
 
 .timeline_title {
@@ -148,6 +150,7 @@ img {
 
 .timeline {
   margin-left: 30px;
+  margin-top: 50px;
 }
 
 .date {
@@ -176,7 +179,7 @@ img {
     transform: rotate(45deg);
     vertical-align: top;
     width: 0.45em;
-    b-color: #F9DB30;
+    border-color: #F9DB30;
   }
   
   .active .reveal_trigger:before {
@@ -197,11 +200,78 @@ img {
   }  
 
 /* ----------- TABLETS ----------- */
-@media only screen and (min-width: 800px) and (max-width: 1280px) (max-height: 2500px) {
+@media only screen and (min-width: 800px) and (max-width: 1280px){
 
+body {
+  background-color: red;
+}
+
+.name {
+  font-family: 'DM Serif Display', serif;
+  font-size: 40px;
+}
+
+.about_window {
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1em;
+}
+
+.about_photo {
+  height: 50vh;
+  margin-right: 100px;
+}
+
+.timeline {
+  margin-left: 100px;
+}
+
+.about {
+  height: auto;
+  display: block;
+}
 }
 
 /* ----------- SMART PHONES ----------- */
-@media only screen and (max-width: 800px) (max-height: 650px) {
+@media only screen and (max-width: 800px) {
 
+body {
+  background-color: blue;
+}
+
+.about_window {
+  display: block;
+}
+
+.name {
+  font-size: 40px;
+}
+
+.menu {
+  font-size: 14px;
+}
+
+.about {
+  height: auto;
+  display: block;
+}
+
+img {
+  max-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about_description {
+  height: auto;
+  width: auto;
+  margin-top: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.timeline {
+  margin-left: 50px;
+}
 }

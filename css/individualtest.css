@@ -14,7 +14,7 @@ img {
     max-width: 100%;
 }
 
-.window {
+.individual_window {
     display: grid;
     margin-left: 0px;
     grid-template-columns: .8fr 1fr 1.6fr;
@@ -45,7 +45,7 @@ img {
     margin-left: 20px;
 }
 
-.line {
+.individual_line {
     background-color: #F9DB30;
     height: 7px;
     position: fixed;
@@ -53,13 +53,13 @@ img {
     padding: 0 0 0 0;
 }
 
-.column_1 {
+.individual_column_1 {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-row-gap: 1em;
 }
 
-.row_1 {
+.individual_row_1 {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-row-gap: 1em;
@@ -69,7 +69,7 @@ img {
     margin-left: 50px;
 }
 
-.description {
+.individual_description {
     height: 300px;
 }
 
@@ -149,13 +149,13 @@ p {
     background-size: contain;
 }
 
-.column_2 {
+.individual_column_2 {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-row-gap: 1em;
 }
 
-.hero {
+.individual_hero {
     background-image: url(img/jazzArtboard3.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -166,11 +166,82 @@ p {
 }
 
 /* ----------- TABLETS ----------- */
-@media only screen and (min-width: 800px) and (max-width: 1280px) (max-height: 2500px) {
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
 
+body {
+  background-color: red;
+}
+
+.name {
+    font-family: 'DM Serif Display', serif;
+    font-size: 40px;
+}
+
+.individual_window {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.individual_column_1 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.individual_row_1 {
+    display: block;
+}
+
+.photo {
+    display: block;
+    margin-top: 1em;
+}
+
+.individual_hero {
+    margin-left: 0;
+}
+
+.individual_description {
+    height: auto;
+    display: block;
+}
 }
 
 /* ----------- SMART PHONES ----------- */
-@media only screen and (max-width: 800px) (max-height: 650px) {
+@media only screen and (max-width: 800px) {
+
+body {
+    background-color: blue;
+}
+
+.name {
+    font-size: 30px;
+}
+
+.individual_column_1 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.individual_window {
+    display: block;
+}
+
+.individual_row_1 {
+    display: block;
+}
+
+.individual_hero {
+    display: block;
+    margin-left: 0;
+}
+
+.individual_description {
+    height: auto;
+    display: block;
+}
+
+.photo {
+    margin-top: 1em;
+}
 
 }

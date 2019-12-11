@@ -14,7 +14,7 @@ a {
     color: black;
 }
 
-.works {
+.index_works {
     width: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -49,7 +49,7 @@ a {
     margin-left: 20px;
 }
 
-.line {
+.index_line {
     background-color: #F9DB30;
     height: 7px;
     position: fixed;
@@ -57,7 +57,7 @@ a {
     padding: 0 0 0 0;
 }
 
-.window {
+.index_window {
     margin-top: 100px;
 }
 
@@ -83,7 +83,7 @@ a {
     background-size: contain;
 }
 
-.project {
+.index_project {
     display: grid;
     grid-template-rows: .3fr 1.7fr;
     grid-row-gap: 1em;
@@ -134,3 +134,42 @@ a {
   transform: scaleX(1);
   transform-origin: 100% 50%;
 }
+
+/* ----------- TABLETS ----------- */
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+
+  body {
+    background-color: red;
+  }
+  
+  .name {
+    font-family: 'DM Serif Display', serif;
+    font-size: 40px;
+  }
+
+  .index_works {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}
+/* ----------- SMART PHONES ----------- */
+@media only screen and (max-width: 800px) {
+
+  body {
+    background-color: orange;
+  }
+
+  .name {
+    font-family: 'DM Serif Display', serif;
+    font-size: 30px;
+  }
+
+  .index_works {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .group_title {
+    font-size: 20px;
+  }
+  }
