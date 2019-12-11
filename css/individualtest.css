@@ -66,8 +66,11 @@ img {
     margin-top: 20px;
     height: 200px;
     width: 300px;
-    margin-left: 100px;
+    margin-left: 50px;
 }
+
+.description {
+    height: 300px;
 }
 
 .project_details {
