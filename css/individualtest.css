@@ -157,20 +157,14 @@ p {
 
 .individual_hero {
     background-image: url(img/jazzArtboard3.png);
-    background-size: cover;
+    background-size: inherit;
     background-repeat: no-repeat;
-    background-position: center;
-    height: 90vh;
     margin-top: 1em;
-    margin-left: 416px;
 }
 
 /* ----------- TABLETS ----------- */
 @media only screen and (min-width: 800px) and (max-width: 1280px) {
 
-body {
-  background-color: red;
-}
 
 .name {
     font-family: 'DM Serif Display', serif;
@@ -178,8 +172,7 @@ body {
 }
 
 .individual_window {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
 }
 
 .individual_column_1 {
@@ -194,6 +187,7 @@ body {
 .photo {
     display: block;
     margin-top: 1em;
+    height: auto;
 }
 
 .individual_hero {
@@ -208,10 +202,6 @@ body {
 
 /* ----------- SMART PHONES ----------- */
 @media only screen and (max-width: 800px) {
-
-body {
-    background-color: blue;
-}
 
 .name {
     font-size: 30px;
