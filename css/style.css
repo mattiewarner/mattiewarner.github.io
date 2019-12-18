@@ -1,4 +1,6 @@
-body {
+  /* Index Style */
+  
+  body {
     margin: 0;
     padding: 0;
     font-family: 'Fira Sans', sans-serif;
@@ -173,3 +175,1452 @@ a {
     font-size: 20px;
   }
   }
+
+    /* Individual Style */
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Fira Sans', sans-serif;
+      display: block;
+  }
+  
+  a {
+      text-decoration: none;
+      color: black;
+  }
+  
+  img {
+      max-width: 100%;
+  }
+  
+  .individual_window {
+      display: grid;
+      margin-left: 0px;
+      grid-template-columns: .8fr 1fr 1.6fr;
+      grid-column-gap: 1em;
+      margin-top: 90px;
+  }
+  
+  .white {
+      background-color: white;
+      height: 100px;
+      width: 100%;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+  
+  .title {
+      margin-left: 30px;
+  }
+  
+  .name {
+      font-family: 'DM Serif Display', serif;
+      font-size: 50px;
+      padding: 0;
+      margin: 0;
+      margin-left: 20px;
+  }
+  
+  .individual_line {
+      background-color: #F9DB30;
+      height: 7px;
+      position: fixed;
+      width: 100px;
+      padding: 0 0 0 0;
+  }
+  
+  .individual_column_1 {
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-row-gap: 1em;
+  }
+  
+  .individual_row_1 {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-row-gap: 1em;
+      margin-top: 20px;
+      height: 200px;
+      width: 300px;
+      margin-left: 50px;
+  }
+  
+  .individual_description {
+      height: 300px;
+  }
+  
+  .project_details {
+      align-content: right;
+  }
+  
+  .menu {
+      margin-top: 30px;
+      text-align: center;
+  }
+  
+  .menu_option {
+      margin-left: 5vw;
+      text-align: center;
+      font-weight: 200;
+  }
+  
+  b {
+      border-bottom: #F9DB30 solid 5px;
+      line-height: 2em;
+  }
+  
+  p {
+      margin-top: 0;
+  }
+  
+  .animatedFromCenter,
+  .animatedFromRight,
+  .animatedFromLeft {
+  
+  
+    /* THE ELEMENT NEEDS TO BE INLINE-BLOCK FOR THE SIZING TO WORK */
+    display: inline-block;
+  }
+  
+  .animatedFromCenter:after,
+  .animatedFromRight:after,
+  .animatedFromLeft:after {
+    display: block;
+    content: "";
+  
+    /* THIS IS THE FINAL SIZE AND COLOR THAT THE BORDER WILL BE */
+    border-bottom: solid 5px #f1cf0c;
+    transform: scaleX(0);
+  
+    /* THIS IS THE SPEED WITH WHICH IT ANIMATES */
+    transition: transform 250ms ease-in-out;
+  }
+  
+  .animatedFromCenter:hover:after {
+    transform: scaleX(1);
+  }
+  
+  .animatedFromLeft:hover {
+    transform-origin: 0% 50%;
+  }
+  .animatedFromLeft:hover:after {
+    transform: scaleX(1);
+    transform-origin: 0% 50%;
+  }
+  
+  .animatedFromRight:hover {
+    transform-origin: 100% 50%;
+  }
+  .animatedFromRight:after {
+    transform-origin: 0% 50%;
+  }
+  .animatedFromRight:hover:after {
+    transform: scaleX(1);
+    transform-origin: 100
+  }
+  
+  .photo {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+  }
+  
+  .individual_column_2 {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-row-gap: 1em;
+  }
+  
+  .individual_hero {
+      background-image: url(img/jazzArtboard3.png);
+      background-size: inherit;
+      background-repeat: no-repeat;
+      margin-top: 1em;
+      margin-left: 365px;
+  }
+  
+  /* ----------- TABLETS ----------- */
+  @media only screen and (min-width: 800px) and (max-width: 1280px) {
+  
+  
+  .name {
+      font-family: 'DM Serif Display', serif;
+      font-size: 40px;
+  }
+  
+  .individual_window {
+      grid-template-rows: 1fr;
+  }
+  
+  .individual_column_1 {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  }
+  
+  .individual_row_1 {
+      display: block;
+  }
+  
+  .photo {
+      display: block;
+      margin-top: 1em;
+      height: auto;
+  }
+  
+  .individual_hero {
+      margin-left: 0;
+  }
+  
+  .individual_description {
+      height: auto;
+      display: block;
+  }
+  }
+  
+  /* ----------- SMART PHONES ----------- */
+  @media only screen and (max-width: 800px) {
+  
+  .name {
+      font-size: 30px;
+  }
+  
+  .individual_column_1 {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  }
+  
+  .individual_window {
+      display: block;
+  }
+  
+  .individual_row_1 {
+      display: block;
+  }
+  
+  .individual_hero {
+      display: block;
+      margin-left: 0;
+  }
+  
+  .individual_description {
+      height: auto;
+      display: block;
+  }
+  
+  .photo {
+      margin-top: 1em;
+  }
+  
+  }
+
+
+    /* Simplicitea Style */
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Fira Sans', sans-serif;
+      display: block;
+  }
+  
+  a {
+      text-decoration: none;
+      color: black;
+  }
+  
+  img {
+      max-width: 100%;
+  }
+  
+  .simplicitea_window {
+      display: grid;
+      margin-left: 0px;
+      grid-template-columns: .8fr 1fr 1.6fr;
+      grid-column-gap: 1em;
+      margin-top: 90px;
+  }
+  
+  .white {
+      background-color: white;
+      height: 100px;
+      width: 100%;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+  
+  .title {
+      margin-left: 30px;
+  }
+  
+  .name {
+      font-family: 'DM Serif Display', serif;
+      font-size: 50px;
+      padding: 0;
+      margin: 0;
+      margin-left: 20px;
+  }
+  
+  .simplicitea_line {
+      background-color: #aab992;
+      height: 7px;
+      position: fixed;
+      width: 100px;
+      padding: 0 0 0 0;
+  }
+  
+  .simplicitea_column_1 {
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-row-gap: 1em;
+  }
+  
+  .simplicitea_row_1 {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-row-gap: 1em;
+      margin-top: 20px;
+      height: 200px;
+      width: 300px;
+      margin-left: 50px;
+  }
+  
+  .simplicitea_description {
+      height: 300px;
+  }
+  
+  .project_details {
+      align-content: right;
+  }
+  
+  .menu {
+      margin-top: 30px;
+      text-align: center;
+  }
+  
+  .menu_option {
+      margin-left: 5vw;
+      text-align: center;
+      font-weight: 200;
+  }
+  
+  b {
+      border-bottom: #aab992 solid 5px;
+      line-height: 2em;
+  }
+  
+  p {
+      margin-top: 0;
+  }
+  
+  .animatedFromCenter,
+  .animatedFromRight,
+  .animatedFromLeft {
+  
+  
+    /* THE ELEMENT NEEDS TO BE INLINE-BLOCK FOR THE SIZING TO WORK */
+    display: inline-block;
+  }
+  
+  .animatedFromCenter:after,
+  .animatedFromRight:after,
+  .animatedFromLeft:after {
+    display: block;
+    content: "";
+  
+    /* THIS IS THE FINAL SIZE AND COLOR THAT THE BORDER WILL BE */
+    border-bottom: solid 5px #aab992;
+    transform: scaleX(0);
+  
+    /* THIS IS THE SPEED WITH WHICH IT ANIMATES */
+    transition: transform 250ms ease-in-out;
+  }
+  
+  .animatedFromCenter:hover:after {
+    transform: scaleX(1);
+  }
+  
+  .animatedFromLeft:hover {
+    transform-origin: 0% 50%;
+  }
+  .animatedFromLeft:hover:after {
+    transform: scaleX(1);
+    transform-origin: 0% 50%;
+  }
+  
+  .animatedFromRight:hover {
+    transform-origin: 100% 50%;
+  }
+  .animatedFromRight:after {
+    transform-origin: 0% 50%;
+  }
+  .animatedFromRight:hover:after {
+    transform: scaleX(1);
+    transform-origin: 100
+  }
+  
+  .photo {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+  }
+  
+  .simplicitea_column_2 {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-row-gap: 1em;
+  }
+  
+  .simplicitea_hero {
+      background-image: url(img/jazzArtboard3.png);
+      background-size: inherit;
+      background-repeat: no-repeat;
+      margin-top: 1em;
+      margin-left: 365px;
+  }
+  
+  /* ----------- TABLETS ----------- */
+  @media only screen and (min-width: 800px) and (max-width: 1280px) {
+  
+  
+  .name {
+      font-family: 'DM Serif Display', serif;
+      font-size: 40px;
+  }
+  
+  .simplicitea_window {
+      grid-template-rows: 1fr;
+  }
+  
+  .simplicitea_column_1 {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  }
+  
+  .simplicitea_row_1 {
+      display: block;
+  }
+  
+  .photo {
+      display: block;
+      margin-top: 1em;
+      height: auto;
+  }
+  
+  .simplicitea_hero {
+      margin-left: 0;
+  }
+  
+  .simplicitea_description {
+      height: auto;
+      display: block;
+  }
+  }
+  
+  /* ----------- SMART PHONES ----------- */
+  @media only screen and (max-width: 800px) {
+  
+  .name {
+      font-size: 30px;
+  }
+  
+  .simplicitea_column_1 {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  }
+  
+  .simplicitea_window {
+      display: block;
+  }
+  
+  .simplicitea_row_1 {
+      display: block;
+  }
+  
+  .simplicitea_hero {
+      display: block;
+      margin-left: 0;
+  }
+  
+  .simplicitea_description {
+      height: auto;
+      display: block;
+  }
+  
+  .photo {
+      margin-top: 1em;
+  }
+  
+  }
+
+    /* KSU Style */
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Fira Sans', sans-serif;
+      display: block;
+  }
+  
+  a {
+      text-decoration: none;
+      color: black;
+  }
+  
+  img {
+      max-width: 100%;
+  }
+  
+  .ksu_window {
+      display: grid;
+      margin-left: 0px;
+      grid-template-columns: .8fr 1fr 1.6fr;
+      grid-column-gap: 1em;
+      margin-top: 90px;
+  }
+  
+  .white {
+      background-color: white;
+      height: 100px;
+      width: 100%;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+  
+  .title {
+      margin-left: 30px;
+  }
+  
+  .name {
+      font-family: 'DM Serif Display', serif;
+      font-size: 50px;
+      padding: 0;
+      margin: 0;
+      margin-left: 20px;
+  }
+  
+  .ksu_line {
+      background-color: #3a1467;
+      height: 7px;
+      position: fixed;
+      width: 100px;
+      padding: 0 0 0 0;
+  }
+  
+  .ksu_column_1 {
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-row-gap: 1em;
+  }
+  
+  .ksu_row_1 {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-row-gap: 1em;
+      margin-top: 20px;
+      height: 200px;
+      width: 300px;
+      margin-left: 50px;
+  }
+  
+  .ksu_description {
+      height: 300px;
+  }
+  
+  .project_details {
+      align-content: right;
+  }
+  
+  .menu {
+      margin-top: 30px;
+      text-align: center;
+  }
+  
+  .menu_option {
+      margin-left: 5vw;
+      text-align: center;
+      font-weight: 200;
+  }
+  
+  b {
+      border-bottom: #3a1467 solid 5px;
+      line-height: 2em;
+  }
+  
+  p {
+      margin-top: 0;
+  }
+  
+  .animatedFromCenter,
+  .animatedFromRight,
+  .animatedFromLeft {
+  
+  
+    /* THE ELEMENT NEEDS TO BE INLINE-BLOCK FOR THE SIZING TO WORK */
+    display: inline-block;
+  }
+  
+  .animatedFromCenter:after,
+  .animatedFromRight:after,
+  .animatedFromLeft:after {
+    display: block;
+    content: "";
+  
+    /* THIS IS THE FINAL SIZE AND COLOR THAT THE BORDER WILL BE */
+    border-bottom: solid 5px #3a1467;
+    transform: scaleX(0);
+  
+    /* THIS IS THE SPEED WITH WHICH IT ANIMATES */
+    transition: transform 250ms ease-in-out;
+  }
+  
+  .animatedFromCenter:hover:after {
+    transform: scaleX(1);
+  }
+  
+  .animatedFromLeft:hover {
+    transform-origin: 0% 50%;
+  }
+  .animatedFromLeft:hover:after {
+    transform: scaleX(1);
+    transform-origin: 0% 50%;
+  }
+  
+  .animatedFromRight:hover {
+    transform-origin: 100% 50%;
+  }
+  .animatedFromRight:after {
+    transform-origin: 0% 50%;
+  }
+  .animatedFromRight:hover:after {
+    transform: scaleX(1);
+    transform-origin: 100
+  }
+  
+  .photo {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+  }
+  
+  .ksu_column_2 {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-row-gap: 1em;
+  }
+  
+  .ksu_hero {
+      background-image: url(img/jazzArtboard3.png);
+      background-size: inherit;
+      background-repeat: no-repeat;
+      margin-top: 1em;
+      margin-left: 365px;
+  }
+  
+  /* ----------- TABLETS ----------- */
+  @media only screen and (min-width: 800px) and (max-width: 1280px) {
+  
+  
+  .name {
+      font-family: 'DM Serif Display', serif;
+      font-size: 40px;
+  }
+  
+  .ksu_window {
+      grid-template-rows: 1fr;
+  }
+  
+  .ksu_column_1 {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  }
+  
+  .ksu_row_1 {
+      display: block;
+  }
+  
+  .photo {
+      display: block;
+      margin-top: 1em;
+      height: auto;
+  }
+  
+  .ksu_hero {
+      margin-left: 0;
+  }
+  
+  .ksu_description {
+      height: auto;
+      display: block;
+  }
+  }
+  
+  /* ----------- SMART PHONES ----------- */
+  @media only screen and (max-width: 800px) {
+  
+  .name {
+      font-size: 30px;
+  }
+  
+  .ksu_column_1 {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  }
+  
+  .ksu_window {
+      display: block;
+  }
+  
+  .ksu_row_1 {
+      display: block;
+  }
+  
+  .ksu_hero {
+      display: block;
+      margin-left: 0;
+  }
+  
+  .ksu_description {
+      height: auto;
+      display: block;
+  }
+  
+  .photo {
+      margin-top: 1em;
+  }
+  
+  }
+
+    /* Honig Style */
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Fira Sans', sans-serif;
+      display: block;
+  }
+  
+  a {
+      text-decoration: none;
+      color: black;
+  }
+  
+  img {
+      max-width: 100%;
+  }
+  
+  .honig_window {
+      display: grid;
+      margin-left: 0px;
+      grid-template-columns: .8fr 1fr 1.6fr;
+      grid-column-gap: 1em;
+      margin-top: 90px;
+  }
+  
+  .white {
+      background-color: white;
+      height: 100px;
+      width: 100%;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+  
+  .title {
+      margin-left: 30px;
+  }
+  
+  .name {
+      font-family: 'DM Serif Display', serif;
+      font-size: 50px;
+      padding: 0;
+      margin: 0;
+      margin-left: 20px;
+  }
+  
+  .honig_line {
+      background-color: black;
+      height: 7px;
+      position: fixed;
+      width: 100px;
+      padding: 0 0 0 0;
+  }
+  
+  .honig_column_1 {
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-row-gap: 1em;
+  }
+  
+  .honig_row_1 {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-row-gap: 1em;
+      margin-top: 20px;
+      height: 200px;
+      width: 300px;
+      margin-left: 50px;
+  }
+  
+  .honig_description {
+      height: 300px;
+  }
+  
+  .project_details {
+      align-content: right;
+  }
+  
+  .menu {
+      margin-top: 30px;
+      text-align: center;
+  }
+  
+  .menu_option {
+      margin-left: 5vw;
+      text-align: center;
+      font-weight: 200;
+  }
+  
+  b {
+      border-bottom: black solid 5px;
+      line-height: 2em;
+  }
+  
+  p {
+      margin-top: 0;
+  }
+  
+  .animatedFromCenter,
+  .animatedFromRight,
+  .animatedFromLeft {
+  
+  
+    /* THE ELEMENT NEEDS TO BE INLINE-BLOCK FOR THE SIZING TO WORK */
+    display: inline-block;
+  }
+  
+  .animatedFromCenter:after,
+  .animatedFromRight:after,
+  .animatedFromLeft:after {
+    display: block;
+    content: "";
+  
+    /* THIS IS THE FINAL SIZE AND COLOR THAT THE BORDER WILL BE */
+    border-bottom: solid 5px black;
+    transform: scaleX(0);
+  
+    /* THIS IS THE SPEED WITH WHICH IT ANIMATES */
+    transition: transform 250ms ease-in-out;
+  }
+  
+  .animatedFromCenter:hover:after {
+    transform: scaleX(1);
+  }
+  
+  .animatedFromLeft:hover {
+    transform-origin: 0% 50%;
+  }
+  .animatedFromLeft:hover:after {
+    transform: scaleX(1);
+    transform-origin: 0% 50%;
+  }
+  
+  .animatedFromRight:hover {
+    transform-origin: 100% 50%;
+  }
+  .animatedFromRight:after {
+    transform-origin: 0% 50%;
+  }
+  .animatedFromRight:hover:after {
+    transform: scaleX(1);
+    transform-origin: 100
+  }
+  
+  .photo {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+  }
+  
+  .honig_column_2 {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-row-gap: 1em;
+  }
+  
+  .honig_hero {
+      background-image: url(img/jazzArtboard3.png);
+      background-size: inherit;
+      background-repeat: no-repeat;
+      margin-top: 1em;
+      margin-left: 365px;
+  }
+  
+  /* ----------- TABLETS ----------- */
+  @media only screen and (min-width: 800px) and (max-width: 1280px) {
+  
+  
+  .name {
+      font-family: 'DM Serif Display', serif;
+      font-size: 40px;
+  }
+  
+  .honig_window {
+      grid-template-rows: 1fr;
+  }
+  
+  .honig_column_1 {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  }
+  
+  .honig_row_1 {
+      display: block;
+  }
+  
+  .photo {
+      display: block;
+      margin-top: 1em;
+      height: auto;
+  }
+  
+  .honig_hero {
+      margin-left: 0;
+  }
+  
+  .honig_description {
+      height: auto;
+      display: block;
+  }
+  }
+  
+  /* ----------- SMART PHONES ----------- */
+  @media only screen and (max-width: 800px) {
+  
+  .name {
+      font-size: 30px;
+  }
+  
+  .honig_column_1 {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  }
+  
+  .honig_window {
+      display: block;
+  }
+  
+  .honig_row_1 {
+      display: block;
+  }
+  
+  .honig_hero {
+      display: block;
+      margin-left: 0;
+  }
+  
+  .honig_description {
+      height: auto;
+      display: block;
+  }
+  
+  .photo {
+      margin-top: 1em;
+  }
+  
+  }
+
+    /* Britts Style */
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Fira Sans', sans-serif;
+      display: block;
+  }
+  
+  a {
+      text-decoration: none;
+      color: black;
+  }
+  
+  img {
+      max-width: 100%;
+  }
+  
+  .britts_window {
+      display: grid;
+      margin-left: 0px;
+      grid-template-columns: .8fr 1fr 1.6fr;
+      grid-column-gap: 1em;
+      margin-top: 90px;
+  }
+  
+  .white {
+      background-color: white;
+      height: 100px;
+      width: 100%;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+  
+  .title {
+      margin-left: 30px;
+  }
+  
+  .name {
+      font-family: 'DM Serif Display', serif;
+      font-size: 50px;
+      padding: 0;
+      margin: 0;
+      margin-left: 20px;
+  }
+  
+  .britts_line {
+      background-color: #ddd9c1;
+      height: 7px;
+      position: fixed;
+      width: 100px;
+      padding: 0 0 0 0;
+  }
+  
+  .britts_column_1 {
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-row-gap: 1em;
+  }
+  
+  .britts_row_1 {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-row-gap: 1em;
+      margin-top: 20px;
+      height: 200px;
+      width: 300px;
+      margin-left: 50px;
+  }
+  
+  .britts_description {
+      height: 300px;
+  }
+  
+  .project_details {
+      align-content: right;
+  }
+  
+  .menu {
+      margin-top: 30px;
+      text-align: center;
+  }
+  
+  .menu_option {
+      margin-left: 5vw;
+      text-align: center;
+      font-weight: 200;
+  }
+  
+  b {
+      border-bottom: #ddd9c1 solid 5px;
+      line-height: 2em;
+  }
+  
+  p {
+      margin-top: 0;
+  }
+  
+  .animatedFromCenter,
+  .animatedFromRight,
+  .animatedFromLeft {
+  
+  
+    /* THE ELEMENT NEEDS TO BE INLINE-BLOCK FOR THE SIZING TO WORK */
+    display: inline-block;
+  }
+  
+  .animatedFromCenter:after,
+  .animatedFromRight:after,
+  .animatedFromLeft:after {
+    display: block;
+    content: "";
+  
+    /* THIS IS THE FINAL SIZE AND COLOR THAT THE BORDER WILL BE */
+    border-bottom: solid 5px #ddd9c1;
+    transform: scaleX(0);
+  
+    /* THIS IS THE SPEED WITH WHICH IT ANIMATES */
+    transition: transform 250ms ease-in-out;
+  }
+  
+  .animatedFromCenter:hover:after {
+    transform: scaleX(1);
+  }
+  
+  .animatedFromLeft:hover {
+    transform-origin: 0% 50%;
+  }
+  .animatedFromLeft:hover:after {
+    transform: scaleX(1);
+    transform-origin: 0% 50%;
+  }
+  
+  .animatedFromRight:hover {
+    transform-origin: 100% 50%;
+  }
+  .animatedFromRight:after {
+    transform-origin: 0% 50%;
+  }
+  .animatedFromRight:hover:after {
+    transform: scaleX(1);
+    transform-origin: 100
+  }
+  
+  .photo {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+  }
+  
+  .britts_column_2 {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-row-gap: 1em;
+  }
+  
+  .britts_hero {
+      background-image: url(img/jazzArtboard3.png);
+      background-size: inherit;
+      background-repeat: no-repeat;
+      margin-top: 1em;
+      margin-left: 365px;
+  }
+  
+  /* ----------- TABLETS ----------- */
+  @media only screen and (min-width: 800px) and (max-width: 1280px) {
+  
+  
+  .name {
+      font-family: 'DM Serif Display', serif;
+      font-size: 40px;
+  }
+  
+  .britts_window {
+      grid-template-rows: 1fr;
+  }
+  
+  .britts_column_1 {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  }
+  
+  .britts_row_1 {
+      display: block;
+  }
+  
+  .photo {
+      display: block;
+      margin-top: 1em;
+      height: auto;
+  }
+  
+  .britts_hero {
+      margin-left: 0;
+  }
+  
+  .britts_description {
+      height: auto;
+      display: block;
+  }
+  }
+  
+  /* ----------- SMART PHONES ----------- */
+  @media only screen and (max-width: 800px) {
+  
+  .name {
+      font-size: 30px;
+  }
+  
+  .britts_column_1 {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  }
+  
+  .britts_window {
+      display: block;
+  }
+  
+  .britts_row_1 {
+      display: block;
+  }
+  
+  .britts_hero {
+      display: block;
+      margin-left: 0;
+  }
+  
+  .britts_description {
+      height: auto;
+      display: block;
+  }
+  
+  .photo {
+      margin-top: 1em;
+  }
+  
+  }
+
+    /* Visual Style */
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Fira Sans', sans-serif;
+      display: block;
+  }
+  
+  a {
+      text-decoration: none;
+      color: black;
+  }
+  
+  img {
+      max-width: 100%;
+  }
+  
+  .visual_window {
+      display: grid;
+      margin-left: 0px;
+      grid-template-columns: .8fr 1fr 1.6fr;
+      grid-column-gap: 1em;
+      margin-top: 90px;
+  }
+  
+  .white {
+      background-color: white;
+      height: 100px;
+      width: 100%;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+  
+  .title {
+      margin-left: 30px;
+  }
+  
+  .name {
+      font-family: 'DM Serif Display', serif;
+      font-size: 50px;
+      padding: 0;
+      margin: 0;
+      margin-left: 20px;
+  }
+  
+  .visual_line {
+      background-color: #bed737;
+      height: 7px;
+      position: fixed;
+      width: 100px;
+      padding: 0 0 0 0;
+  }
+  
+  .visual_column_1 {
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-row-gap: 1em;
+  }
+  
+  .visual_row_1 {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-row-gap: 1em;
+      margin-top: 20px;
+      height: 200px;
+      width: 300px;
+      margin-left: 50px;
+  }
+  
+  .visual_description {
+      height: 300px;
+  }
+  
+  .project_details {
+      align-content: right;
+  }
+  
+  .menu {
+      margin-top: 30px;
+      text-align: center;
+  }
+  
+  .menu_option {
+      margin-left: 5vw;
+      text-align: center;
+      font-weight: 200;
+  }
+  
+  b {
+      border-bottom: #bed737 solid 5px;
+      line-height: 2em;
+  }
+  
+  p {
+      margin-top: 0;
+  }
+  
+  .animatedFromCenter,
+  .animatedFromRight,
+  .animatedFromLeft {
+  
+  
+    /* THE ELEMENT NEEDS TO BE INLINE-BLOCK FOR THE SIZING TO WORK */
+    display: inline-block;
+  }
+  
+  .animatedFromCenter:after,
+  .animatedFromRight:after,
+  .animatedFromLeft:after {
+    display: block;
+    content: "";
+  
+    /* THIS IS THE FINAL SIZE AND COLOR THAT THE BORDER WILL BE */
+    border-bottom: solid 5px #bed737;
+    transform: scaleX(0);
+  
+    /* THIS IS THE SPEED WITH WHICH IT ANIMATES */
+    transition: transform 250ms ease-in-out;
+  }
+  
+  .animatedFromCenter:hover:after {
+    transform: scaleX(1);
+  }
+  
+  .animatedFromLeft:hover {
+    transform-origin: 0% 50%;
+  }
+  .animatedFromLeft:hover:after {
+    transform: scaleX(1);
+    transform-origin: 0% 50%;
+  }
+  
+  .animatedFromRight:hover {
+    transform-origin: 100% 50%;
+  }
+  .animatedFromRight:after {
+    transform-origin: 0% 50%;
+  }
+  .animatedFromRight:hover:after {
+    transform: scaleX(1);
+    transform-origin: 100
+  }
+  
+  .photo {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+  }
+  
+  .visual_column_2 {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-row-gap: 1em;
+  }
+  
+  .visual_hero {
+      background-image: url(img/jazzArtboard3.png);
+      background-size: inherit;
+      background-repeat: no-repeat;
+      margin-top: 1em;
+      margin-left: 365px;
+  }
+  
+  /* ----------- TABLETS ----------- */
+  @media only screen and (min-width: 800px) and (max-width: 1280px) {
+  
+  
+  .name {
+      font-family: 'DM Serif Display', serif;
+      font-size: 40px;
+  }
+  
+  .visual_window {
+      grid-template-rows: 1fr;
+  }
+  
+  .visual_column_1 {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  }
+  
+  .visual_row_1 {
+      display: block;
+  }
+  
+  .photo {
+      display: block;
+      margin-top: 1em;
+      height: auto;
+  }
+  
+  .visual_hero {
+      margin-left: 0;
+  }
+  
+  .visual_description {
+      height: auto;
+      display: block;
+  }
+  }
+  
+  /* ----------- SMART PHONES ----------- */
+  @media only screen and (max-width: 800px) {
+  
+  .name {
+      font-size: 30px;
+  }
+  
+  .visual_column_1 {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  }
+  
+  .visual_window {
+      display: block;
+  }
+  
+  .visual_row_1 {
+      display: block;
+  }
+  
+  .visual_hero {
+      display: block;
+      margin-left: 0;
+  }
+  
+  .visual_description {
+      height: auto;
+      display: block;
+  }
+  
+  .photo {
+      margin-top: 1em;
+  }
+  
+  }
+  
+    /* Individual Style */ 

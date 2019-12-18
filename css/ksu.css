@@ -14,7 +14,7 @@ img {
     max-width: 100%;
 }
 
-.individual_window {
+.ksu_window {
     display: grid;
     margin-left: 0px;
     grid-template-columns: .8fr 1fr 1.6fr;
@@ -45,7 +45,7 @@ img {
     margin-left: 20px;
 }
 
-.individual_line {
+.ksu_line {
     background-color: #3a1467;
     height: 7px;
     position: fixed;
@@ -53,13 +53,13 @@ img {
     padding: 0 0 0 0;
 }
 
-.individual_column_1 {
+.ksu_column_1 {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-row-gap: 1em;
 }
 
-.individual_row_1 {
+.ksu_row_1 {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-row-gap: 1em;
@@ -69,7 +69,7 @@ img {
     margin-left: 50px;
 }
 
-.individual_description {
+.ksu_description {
     height: 300px;
 }
 
@@ -149,13 +149,13 @@ p {
     background-size: contain;
 }
 
-.individual_column_2 {
+.ksu_column_2 {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-row-gap: 1em;
 }
 
-.individual_hero {
+.ksu_hero {
     background-image: url(img/jazzArtboard3.png);
     background-size: inherit;
     background-repeat: no-repeat;
@@ -172,16 +172,16 @@ p {
     font-size: 40px;
 }
 
-.individual_window {
+.ksu_window {
     grid-template-rows: 1fr;
 }
 
-.individual_column_1 {
+.ksu_column_1 {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
 
-.individual_row_1 {
+.ksu_row_1 {
     display: block;
 }
 
@@ -191,11 +191,11 @@ p {
     height: auto;
 }
 
-.individual_hero {
+.ksu_hero {
     margin-left: 0;
 }
 
-.individual_description {
+.ksu_description {
     height: auto;
     display: block;
 }
@@ -208,25 +208,25 @@ p {
     font-size: 30px;
 }
 
-.individual_column_1 {
+.ksu_column_1 {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
 
-.individual_window {
+.ksu_window {
     display: block;
 }
 
-.individual_row_1 {
+.ksu_row_1 {
     display: block;
 }
 
-.individual_hero {
+.ksu_hero {
     display: block;
     margin-left: 0;
 }
 
-.individual_description {
+.ksu_description {
     height: auto;
     display: block;
 }
