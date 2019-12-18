@@ -68,7 +68,7 @@ a {
     text-align: center;
 }
 
-.menu_option {
+.index_menu_option {
     margin-left: 5vw;
     text-align: center;
     font-weight: 200;
@@ -139,10 +139,6 @@ a {
 
 /* ----------- TABLETS ----------- */
 @media only screen and (min-width: 800px) and (max-width: 1280px) {
-
-  body {
-    background-color: red;
-  }
   
   .name {
     font-family: 'DM Serif Display', serif;
@@ -156,10 +152,6 @@ a {
 }
 /* ----------- SMART PHONES ----------- */
 @media only screen and (max-width: 800px) {
-
-  body {
-    background-color: orange;
-  }
 
   .name {
     font-family: 'DM Serif Display', serif;
@@ -249,9 +241,9 @@ a {
       margin-left: 50px;
   }
   
-  .individual_description {
+  /* .individual_description {
       height: 300px;
-  }
+  } */
   
   .project_details {
       align-content: right;
@@ -376,7 +368,6 @@ a {
   }
   
   .individual_description {
-      height: auto;
       display: block;
   }
   }
@@ -407,7 +398,6 @@ a {
   }
   
   .individual_description {
-      height: auto;
       display: block;
   }
   
@@ -491,9 +481,9 @@ a {
       margin-left: 50px;
   }
   
-  .simplicitea_description {
+  /* .simplicitea_description {
       height: 300px;
-  }
+  } */
   
   .project_details {
       align-content: right;
@@ -618,7 +608,6 @@ a {
   }
   
   .simplicitea_description {
-      height: auto;
       display: block;
   }
   }
@@ -649,7 +638,6 @@ a {
   }
   
   .simplicitea_description {
-      height: auto;
       display: block;
   }
   
@@ -731,10 +719,10 @@ a {
       width: 300px;
       margin-left: 50px;
   }
-  
+/*   
   .ksu_description {
       height: 300px;
-  }
+  } */
   
   .project_details {
       align-content: right;
@@ -859,7 +847,6 @@ a {
   }
   
   .ksu_description {
-      height: auto;
       display: block;
   }
   }
@@ -890,7 +877,6 @@ a {
   }
   
   .ksu_description {
-      height: auto;
       display: block;
   }
   
@@ -972,11 +958,11 @@ a {
       width: 300px;
       margin-left: 50px;
   }
-  
+/*   
   .honig_description {
       height: 300px;
   }
-  
+   */
   .project_details {
       align-content: right;
   }
@@ -1100,7 +1086,6 @@ a {
   }
   
   .honig_description {
-      height: auto;
       display: block;
   }
   }
@@ -1131,7 +1116,6 @@ a {
   }
   
   .honig_description {
-      height: auto;
       display: block;
   }
   
@@ -1214,9 +1198,9 @@ a {
       margin-left: 50px;
   }
   
-  .britts_description {
+/*   .britts_description {
       height: 300px;
-  }
+  } */
   
   .project_details {
       align-content: right;
@@ -1341,7 +1325,6 @@ a {
   }
   
   .britts_description {
-      height: auto;
       display: block;
   }
   }
@@ -1372,7 +1355,6 @@ a {
   }
   
   .britts_description {
-      height: auto;
       display: block;
   }
   
@@ -1455,9 +1437,9 @@ a {
       margin-left: 50px;
   }
   
-  .visual_description {
+/*   .visual_description {
       height: 300px;
-  }
+  } */
   
   .project_details {
       align-content: right;
@@ -1582,7 +1564,6 @@ a {
   }
   
   .visual_description {
-      height: auto;
       display: block;
   }
   }
@@ -1613,7 +1594,6 @@ a {
   }
   
   .visual_description {
-      height: auto;
       display: block;
   }
   
@@ -1623,4 +1603,275 @@ a {
   
   }
   
-    /* Individual Style */ 
+    /* About Style */ 
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Fira Sans', sans-serif;
+      display: block;
+  }
+  
+  a {
+      text-decoration: none;
+      color: black;
+  }
+  
+  img {
+      max-width: 100%;
+  }
+  
+  .white {
+      background-color: white;
+      height: 100px;
+      width: 100%;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      z-index: 100;
+  }
+  
+  .title {
+      margin-left: 30px;
+  }
+  
+  .name {
+      font-family: 'DM Serif Display', serif;
+      font-size: 50px;
+      padding: 0;
+      margin: 0;
+      margin-left: 20px;
+  }
+  
+  .about_line {
+      background-color: #F9DB30;
+      height: 7px;
+      position: fixed;
+      width: 100px;
+      padding: 0 0 0 0;
+  }
+  
+  .about_window {
+      display: grid;
+      grid-template-columns: 1.1fr .7fr 1.2fr;
+      grid-column-gap: 1em;
+      margin-top: 90px;
+  }
+  
+  .about {
+      margin-top: 50px;
+      display: grid;
+      grid-template-rows: 1.8fr .2fr;
+      grid-row-gap: 1em;
+      height: 87vh;
+  }
+  
+  .about_description {
+      width: 300px;
+      margin-left: 100px;
+  }
+  
+  .menu {
+      margin-top: 30px;
+      text-align: center;
+  }
+  
+  .menu_option {
+      margin-left: 5vw;
+      text-align: center;
+      font-weight: 200;
+  }
+  
+  .animatedFromCenter,
+  .animatedFromRight,
+  .animatedFromLeft {
+  
+  
+    /* THE ELEMENT NEEDS TO BE INLINE-BLOCK FOR THE SIZING TO WORK */
+    display: inline-block;
+  }
+  
+  .animatedFromCenter:after,
+  .animatedFromRight:after,
+  .animatedFromLeft:after {
+    display: block;
+    content: "";
+  
+    /* THIS IS THE FINAL SIZE AND COLOR THAT THE BORDER WILL BE */
+    border-bottom: solid 5px #f1cf0c;
+    transform: scaleX(0);
+  
+    /* THIS IS THE SPEED WITH WHICH IT ANIMATES */
+    transition: transform 250ms ease-in-out;
+  }
+  
+  .animatedFromCenter:hover:after {
+    transform: scaleX(1);
+  }
+  
+  .animatedFromLeft:hover {
+    transform-origin: 0% 50%;
+  }
+  .animatedFromLeft:hover:after {
+    transform: scaleX(1);
+    transform-origin: 0% 50%;
+  }
+  
+  .animatedFromRight:hover {
+    transform-origin: 100% 50%;
+  }
+  .animatedFromRight:after {
+    transform-origin: 0% 50%;
+  }
+  .animatedFromRight:hover:after {
+    transform: scaleX(1);
+    transform-origin: 100
+  }
+  
+  .about_photo {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin-top: 50px;
+  }
+  
+  .timeline_title {
+      font-family: 'DM Serif Display', serif;
+      font-size: 30px;
+      padding: 0;
+      margin: 0;
+      margin-top: 10px;
+  }
+  
+  .timeline_line {
+      background-color: #F9DB30;
+      height: 7px;
+      width: 100px;
+      padding: 0 0 0 0;
+      margin-top: 20px;
+      margin-left: 30px;
+  }
+  
+  .timeline {
+    margin-left: 30px;
+    margin-top: 50px;
+  }
+  
+  .date {
+    font-family: 'DM Serif Display', serif;
+  }
+  
+  .reveal_trigger {
+      margin: 0;
+      margin-left: 20px;
+      cursor: pointer;
+    }
+    
+    .reveal_trigger:hover {
+      color: #F9DB30;
+    }
+    
+    .reveal_trigger:before {
+      border-style: solid;
+      border-width: 5px 5px 0 0;
+      content: "";
+      display: inline-block;
+      height: 0.45em;
+      left: -7px;
+      position: relative;
+      top: 2.5px;
+      transform: rotate(45deg);
+      vertical-align: top;
+      width: 0.45em;
+      border-color: #F9DB30;
+    }
+    
+    .active .reveal_trigger:before {
+      transform: rotate(135deg);
+      top: 0;
+    }
+    
+    .reveal_details {
+      display: none;
+    
+      margin: 0;
+      margin-left: 40px;
+      margin-top: 10px;
+    }
+    
+    .active .reveal_details {
+      display: block;
+    }  
+  
+  /* ----------- TABLETS ----------- */
+  @media only screen and (min-width: 800px) and (max-width: 1280px){
+  
+  
+  .name {
+    font-family: 'DM Serif Display', serif;
+    font-size: 40px;
+  }
+  
+  .about_window {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1em;
+  }
+  
+  .about_photo {
+    height: 50vh;
+    margin-right: 100px;
+  }
+  
+  .timeline {
+    margin-left: 100px;
+  }
+  
+  .about {
+    height: auto;
+    display: block;
+  }
+  }
+  
+  /* ----------- SMART PHONES ----------- */
+  @media only screen and (max-width: 800px) {
+  
+  .about_window {
+    display: block;
+  }
+  
+  .name {
+    font-size: 40px;
+  }
+  
+  .menu {
+    font-size: 14px;
+  }
+  
+  .about {
+    height: auto;
+    display: block;
+  }
+  
+  img {
+    max-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    display: block;
+  }
+  
+  .about_description {
+    width: auto;
+    margin-top: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .timeline {
+    margin-left: 50px;
+  }
+  }
